@@ -1,0 +1,10 @@
+{
+  "name": "session-cost-alert",
+  "version": "0.1.0",
+  "description": "DSH/Cordis 动态插件：会话花费超 ¥1 时顶部横幅提醒，并显示账户充值余额。",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node -e \"const fs=require('fs');['host','client'].forEach(n=>new Function(fs.readFileSync('plugin/'+n+'.js','utf8')));console.log('syntax ok')\""
+  }
+}
