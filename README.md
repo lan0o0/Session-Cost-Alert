@@ -1,4 +1,4 @@
-# 会话成本预警器 (Session Cost Alert)
+#  DeepSeek Harness 会话成本预警器 (Session Cost Alert)
 
 > 一个基于 **DeepSeek Harness / Cordis** 的动态插件：实时估算**单次会话**的累计花费，一旦超过 **¥1** 就在界面顶部弹出横幅提醒，停留 **5 秒**后自动隐藏，并同步显示 DeepSeek 账户的**充值余额**。
 
